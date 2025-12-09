@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Siti Shahada</title>
+    <link rel="icon" href="public/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body>
+    <nav id="desktop-nav">
+
+        <div class="logo">Shahada</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#project">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Siti Shahada</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+            </div>
+            <div class="menu-links">
+                    <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                    <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                    <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                    <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+    <section id="profile">
+        <div class="section__pic-container">
+            <img src="./asset/profile-pic.png" alt="Siti Shahada profile picture">
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1">Hello, I'm</p>
+            <h1 class="title">Siti Shahada</h1>
+            <p class="section__text__p2">Data Engineer</p>
+        <div class="btn-container">
+           <button class="btn btn-color-2" onclick="window.open('.asset/resume.pdf')">Download CV</button>
+           <button class="btn btn-color-1" onclick="location.href='./contact'">Contact Info</button>
+        </div>
+        <div id="socials-container">
+            <img src="./asset/linkedin.png" alt="My LinkedIn profile" class = 'icon' onclick="location.href='https://linkedin.com/'"/>
+            <img src="./asset/github.png" alt="My GitHub profile" class = 'icon' onclick="location.href=location.href='https://github.com/'"/>
+        </div>
+        </div>
+    </section>
+    <section id="about">
+        <p class="section__text__p1">Get To Know More</p>
+        <h1 class="title">About Me</h1>
+        <span class="heading-sec__sub">
+            Here you will find more information about me, what I do, and my current skills mostly in terms of programming and technology
+        </span>
+        <br>
+        <div class="about-section">
+            <div class="about-left">
+                <h2>Get to know me!</h2>
+                <p>
+                    I am a <strong> Data Analyst </strong> based in Malaysia with a strong passion for data and technology. With expertise in data analysis, and data visualization, I specialize in transforming raw data into actionable insights. My technical toolkit includes Python, SQL, and Power BI, and I continuously strive to enhance my skills by tackling new challenges.
+                </p>
+                <br>
+                <p>
+                    I hold a <strong>Bachelor's degree in Computer Science</strong> from Universiti Teknologi MARA (UiTM). Throughout my career, I have worked on diverse projects involving complex data workflows, database management, and visual storytelling. My enthusiasm for learning and problem-solving drives me to stay updated on the latest industry trends and tools.
+                <p>
+                    I am actively seeking <strong>Job</strong> opportunities where I can contribute, grow, and make an impact. If you have a role that aligns with my expertise and passion, feel free to <strong>contact</strong> me. I look forward to connecting and exploring how I can add value to your team.
+                </p>
+            </div>
+            <div class="about-right">
+                <h2>My Skills</h2>
+                <div class="skills-grid">
+                    <div class="skill">Python</div>
+                    <div class="skill">SQL</div>
+                    <div class="skill">Microsoft Office</div>
+                    <div class="skill">HTML</div>
+                    <div class="skill">Selenium</div>
+                    <div class="skill">Flask</div>
+                    <div class="skill">Data Analysis</div>
+                    <div class="skill">RESTful API</div>
+                    <div class="skill">Machine Learning</div>
+                    <div class="skill">API Integration</div>
+                    <div class="skill">Git</div>
+                    <div class="skill">GitHub</div>
+            </div>     
+        </div>
+            <img
+              src="./asset/arrow.png"
+              alt="Arrow icon"
+              class="icon arrow"
+              onclick="location.href='./#project'"
+            />
+            <img
+              src="./asset/home.png"
+              alt="Arrow icon"
+              class="icon home"
+              onclick="location.href='./#'"/>
+    </section>
+    <section id="project">
+        <p class="section__text__p1">Browse My Recent</p>
+        <h1 class="title">Projects</h1>
+        <div class="project-details-container">
+          <div class="about-containers">
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img
+                  src="./asset/project-1.png"
+                  alt="Project 1"
+                  class="project-img"
+                />
+              </div>
+              <h2 class="project-sub-title project-title">ASGC 8 – ASEAN Smart Grid Congress Website & Info Portal</h2>
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='projects/asgc8.html'"
+                >
+                  More Details
+                </button>
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://asgc8.uitm.edu.my/'"
+                >
+                  Live Demo
+                </button>
+              </div>
+            </div>
+                        <div class="details-container color-container">
+              <div class="article-container">
+                <img
+                  src="./asset/project-2.png"
+                  alt="Project 2"
+                  class="project-img"
+                />
+              </div>
+              <h2 class="project-sub-title project-title">Project Two</h2>
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://github.com/'"
+                >
+                  Github
+                </button>
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://github.com/'"
+                >
+                  Live Demo
+                </button>
+              </div>
+            </div>
+                        <div class="details-container color-container">
+              <div class="article-container">
+                <img
+                  src="./asset/project-2.png"
+                  alt="Project 2"
+                  class="project-img"
+                />
+              </div>
+              <h2 class="project-sub-title project-title">Project Two</h2>
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://github.com/'"
+                >
+                  Github
+                </button>
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://github.com/'"
+                >
+                  Live Demo
+                </button>
+              </div>
+            </div>
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img
+                  src="./asset/project-2.png"
+                  alt="Project 2"
+                  class="project-img"
+                />
+              </div>
+              <h2 class="project-sub-title project-title">Project Two</h2>
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://github.com/'"
+                >
+                  Github
+                </button>
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://github.com/'"
+                >
+                  Live Demo
+                </button>
+              </div>
+            </div>
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img
+                  src="./asset/project-3.png"
+                  alt="Project 3"
+                  class="project-img"
+                />
+              </div>
+              <h2 class="project-sub-title project-title">Project Three</h2>
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://github.com/'"
+                >
+                  Github
+                </button>
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://github.com/'"
+                >
+                  Live Demo
+                </button>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+        <img
+          src="./asset/arrow.png"
+          alt="Arrow icon"
+          class="icon arrow"
+          onclick="location.href='./#contact'"
+        />
+    </section>
+    <section id="contact">
+        <p class="section__text__p1">Get in Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+          <div class="contact-info-container">
+            <img
+              src="./asset/email.png"
+              alt="Email icon"
+              class="icon contact-icon email-icon"
+            />
+            <p><a href="mailto:shahadashamshuddin@gmail.com">shahadashamshuddin@gmail.com</a></p>
+          </div>
+          <div class="contact-info-container">
+            <img
+              src="./asset/linkedin.png"
+              alt="LinkedIn icon"
+              class="icon contact-icon"
+            />
+            <p><a href="https://www.linkedin.com">LinkedIn</a></p>
+          </div>
+        </div>
+      </section>
+      <footer>
+        <nav>
+          <div class="nav-links-container">
+            <ul class="nav-links">
+              <li><a href="#about">About</a></li>
+              <li><a href="#project">Projects</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+        </nav>
+        <p>Copyright &#169; 2025 Shahada Shamshuddin. All Rights Reserved.</p>
+        <br>
+
+      </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
